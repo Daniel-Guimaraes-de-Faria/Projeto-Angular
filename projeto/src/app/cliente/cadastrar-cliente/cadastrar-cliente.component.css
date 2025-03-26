@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+mat-card {
+    width: 400px;
+    padding: 20px;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#btn-salvar {
+    background-color: #1976d2;
+    /* Azul */
+    color: white;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+#btn-cancelar {
+    background-color: #d32f2f;
+    /* Vermelho */
+    color: white;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
